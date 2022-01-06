@@ -70,7 +70,7 @@ const renderForecast = (day) => {
   
 	let weatherContent = createWeatherHTML(day);
   $weatherDiv.append(weatherContent);
-  $weatherDiv.append(weatherContent);
+  
 }
 
 const executeSearch = () => {
